@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{bf7f9c90-3e96-4230-9828-3fb04c3dacb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWindow">
+      <UniqueIdentifier>{349d8aa1-0829-4fd7-8a45-f8c5a3af490e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Disassemble">
+      <UniqueIdentifier>{a2fb89ff-ed67-4da7-847f-28910258a86a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CWindow\CDialogBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CWindow\CWindowBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CWindow\CWndSubclassBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\6502\C6502Introduction.cpp">
+      <Filter>Disassemble</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CClipboardUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CLogUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CPathUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CRegUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CStrUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CBytesUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CFileHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Win32Utils\CIniHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainFrameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CWindow\CDialogBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CWindow\CWindowBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CWindow\CWndSubclassBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\6502\C6502Introduction.h">
+      <Filter>Disassemble</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CClipboardUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CLogUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CPathUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CRegUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CStrUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CBytesUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CFileHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Win32Utils\CIniHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NesDisassembleGui.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
